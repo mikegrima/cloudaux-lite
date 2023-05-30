@@ -57,7 +57,7 @@ setup(
     description=about["__summary__"],
     long_description=open(os.path.join(ROOT, 'README.md')).read(),
     long_description_content_type="text/markdown",
-    packages=find_packages(),
+    packages=find_packages(exclude=["tests"]),
     include_package_data=True,
     zip_safe=False,
     install_requires=install_requires,
