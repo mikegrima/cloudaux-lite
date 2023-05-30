@@ -1,0 +1,7 @@
+[report]
+include =
+    cloudaux/*
+    tests/*.py
+omit =
+    cloudaux/__about__.py
+    cloudaux/tests/*.py
